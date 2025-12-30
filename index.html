@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tom | Développeur Discord & Web</title>
+
+  <style>
+    :root {
+      --bg: #0f1220;
+      --card: #171a2e;
+      --text: #e6e7ef;
+      --muted: #a0a3c4;
+      --accent: #5b7cfa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+
+    .card {
+      background: var(--card);
+      padding: 25px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li::before {
+      content: "•";
+      color: var(--accent);
+      margin-right: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+
+    .tags span {
+      display: inline-block;
+      background: rgba(91,124,250,0.15);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin: 5px 6px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Tom</h1>
+      <p>Développeur Bots Discord & Projets Web</p>
+    </header>
+
+    <section>
+      <h2>À propos</h2>
+      <div class="card">
+        <p>
+          Développeur orienté bots Discord et projets web.
+          J’aime concevoir des solutions propres, fiables et adaptées aux communautés actives.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Compétences</h2>
+      <div class="card tags">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Bots Discord</span>
+        <span>Commandes Slash</span>
+        <span>Tickets</span>
+        <span>Modération</span>
+        <span>Automatisation</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projet principal</h2>
+      <div class="card">
+        <strong>Bot Discord – Projet personnel</strong>
+        <p style="margin: 10px 0;">
+          Bot Discord développé en Python, pensé pour des serveurs communautaires actifs.
+        </p>
+        <ul>
+          <li>Commandes slash</li>
+          <li>Système de tickets avancé</li>
+          <li>Modération & administration</li>
+          <li>Logs et embeds interactifs</li>
+          <li>Configuration personnalisable</li>
+        </ul>
+        <p style="margin-top: 15px; color: var(--muted);">
+          Code disponible sur demande.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Discord : <strong>t.exe</strong></p>
+        <p>GitHub : <strong>github.com/tonpseudo</strong></p>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 – Tom
+    </footer>
+
+  </div>
+</body>
+</html>
